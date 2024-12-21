@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorBox</title>
+    <link rel="stylesheet" href="./assets/css/normalies.css">
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <script src="./assets/java/data.js"></script>
+    <script src="./assets/java/script1.js"></script>
+</head>
+<body>
+    <!-- start nav -->
+     <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/imgs/Untitled-3.png" alt="ligo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="./first_page.html">Home</a></li>
+                <li><a href="./second_page.html">Recipes</a></li>
+                <button type="submit"><a href="./third_page.html">Add Recipe</a></button>
+            </ul>
+        </div>
+     </nav>
+     <!-- end nav -->
+
+     <!-- start header -->
+     <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-logo">
+                    <img src="./assets/imgs/Untitled-3.png" alt="header content logo" />
+                  </div>
+                  <h1>
+                  Explor Delocious Recipes
+                  </h1>
+                  <hr class="header-line" />
+                  <p class="header-description">
+                    Browse through our collection of mouthwatering recipes for every occasion, from simple meals to exquisite dishes!
+                  </p>
+                  <button class="download-btn">Buy the Recipe Book</button>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- end header -->
+
+     <!-- start about section -->
+     <section id="about-section">
+      <div class="container">
+        <div class="section-content">
+        <h2>Discover the Joy of Cooking</h2>
+  <p>
+    Welcome to <span class="site-name">FlavorBox</span> your ultimate destination for culinary inspiration! Whether you're a seasoned chef or just starting your cooking journey, our platform offers a wide variety of recipes to spark your creativity and delight your taste buds. 
+    Explore, create, and share your passion for cooking with a community that loves food as much as you do.
+  </p>
+  <p>
+    You can also share your own recipes with our community and inspire others to get creative in the kitchen!
+  </p>
+  <a href="./second_page.html" class="explore-btn">Explore Recipes Now 🍴</a>
+</div>
+  <div class="about-img">
+    <img src="./assets/imgs/Screenshot_20241207_013438.png" alt="img">
+  </div>
+</div>
+     </section>
+     <!-- end about section -->
+
+      <!-- start random recipes section -->
+<section id="random-recipes">
+  <div class="container">
+    <h2>Featured Recipes</h2>
+    <p>Discover some of our top recipes, handpicked to get you started!</p>
+    <div id="recipes-grid" class="recipes-grid">
+      <!-- Dynamic recipe cards will be added here -->
+    </div>
+    <a href="./second_page.html" class="view-all-btn">View All Recipes 🍴</a>
+  </div>
+</section>
+<!-- end random recipes section -->
+
+<!-- start chef section -->
+<section id="chef-section">
+  <div class="container">
+    <div class="chef-top-section">
+      <h2>What My Client Says</h2>
+      <p>Our chefs are dedicated to delivering exceptional dishes. Find out what they have to say about the ingredients, techniques, and flavors behind our recipes.</p>
+    </div>
+    <div class="chef-bottom-section">
+      <div class="chef-media">
+        <!-- الصور مع معرفات فريدة -->
+        <img id="chef-image-0" src="assets/imgs/Untitled-22.png" alt="Chef 1" class="chef-media-image active" onclick="updateComment(0)">
+        <img id="chef-image-1" src="assets/imgs/Untitled-33.png" alt="Chef 2" class="chef-media-image" onclick="updateComment(1)">
+        <img id="chef-image-2" src="assets/imgs/Untitled-11.png" alt="Chef 3" class="chef-media-image" onclick="updateComment(2)">
+        <img id="chef-image-3" src="assets/imgs/Untitled-55.png" alt="Chef 4" class="chef-media-image" onclick="updateComment(3)">
+        <img id="chef-image-4" src="assets/imgs/Untitled-33.png" alt="Chef 5" class="chef-media-image" onclick="updateComment(4)">
+        <img id="chef-image-5" src="assets/imgs/Untitled-22.png" alt="Chef 6" class="chef-media-image" onclick="updateComment(5)">
+      </div>
+      <div class="comment-card">
+        <div class="upper-quote"><img src="./assets/imgs/q.png" alt=""></div>
+        <p id="comment-text">Loading...</p>
+        <div class="lower-quote"><img src="./assets/imgs/q.png" alt=""></div>
+        <h4 id="comment-author">-</h4>
+        <p id="comment-title" class="resturant"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- end chef section -->
+
+ <!-- start comment section -->
+  
+  <section id="comment-section">
+    <div class="container">
+    <div class="top-comment-section">
+    <h2>Leave Us a Comment</h2>
+    <p>Your opinin is important to make <span class="site-name">FavorBox</span> the best onine kitchen!</p>
+  </div>
+          <div class="top">
+          <div class="group-input top-input">
+            <input type="text" name="" id="name" placeholder="Name" maxlength="25">
+          </div>
+          <button class="comment-btn" onclick="addComment()">Comment</button>
+        </div>
+          <div class="group-input bottom-input">
+            <input type="text" name="" id="comment" placeholder="Write a comment">
+          </div>
+        <ul id="comments"></ul>
+    </div>
+  </section>
+
+  <!-- end comment section -->
+
+       <!-- start footer -->
+       <footer>
+        <div class="container">
+        <div class="footer-title">
+          <div class="nav-footer">
+          <h2>FlavorBox</h2>
+          </div>
+          <div class="footer-content">
+            <span>about&nbsp;</span>
+             <span class="flavorBox-line">&nbsp; FlavorBox &nbsp; </span> 
+             <span>&nbsp;Contact</span> 
+             <p><br></p>
+            <p>NY/+1 123456 7890 /hello@graphics.studio.com</p>
+           <br>
+          </div>
+          </p>
+        </div>
+        </div>
+        <section class="copyright-section">
+          <div class="container">
+            <p>copyright &copy; 2019 Graphic Studio All right reserved</p>
+          </div>
+        </section>
+      </footer>
+        <!-- end footr section -->
+</body>
+</html>

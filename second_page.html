@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorBox</title>
+    <link rel="stylesheet" href="./assets/css/normalies.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <script src="./assets/java/data.js"></script>
+    <script src="./assets/java/script2.js"></script>
+</head>
+<body>
+    <!-- start nav -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/imgs/Untitled-3.png" alt="ligo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="./first_page.html">Home</a></li>
+                <li><a href="./second_page.html">Recipes</a></li>
+                <button type="submit"><a href="./third_page.html">Add Recipe</a></button>
+            </ul>
+        </div>
+     </nav>
+     <!-- end nav -->
+
+     <!-- start recipes section -->
+      <section id="recipes">
+        <div class="container">
+        <div class="top-section">
+          <h2>Recipes</h2>
+          <p>Enjoy cooking the best recipes from all over the world.</p>
+          <div class="cat">
+            <div id="importantCats"></div>
+            <div id="dropDownContainer">
+              <select name="" id="otherCat" onchange="filterRecipes(this.value)">
+                <!-- <option value="">select a c</option> -->
+              </select>
+            </div>
+        </div>
+        </div>
+        <div id="recipesGrid" class="recipes-grid">
+          
+        </div>
+        <p class="enjoy">Enjoy!</p>
+      </div>
+      </section>
+      
+      <!-- start modal -->
+      <div id="overlay" class="hidden" onclick="closeModal()"></div>
+      <div id="modal" class="hidden">
+          <div id="modalContent"></div>
+      </div>
+
+     <!-- start footer -->
+     <footer>
+        <div class="container">
+        <div class="footer-title">
+          <div class="nav-footer">
+          <h2>FlavorBox</h2>
+          </div>
+          <div class="footer-content">
+            <span>about&nbsp;</span>
+             <span class="flavorBox-line">&nbsp; FlavorBox &nbsp; </span> 
+             <span>&nbsp;Contact</span> 
+             <p><br></p>
+            <p>NY/+1 123456 7890 /hello@graphics.studio.com</p>
+           <br>
+          </div>
+          </p>
+        </div>
+        </div>
+        <section class="copyright-section">
+          <div class="container">
+            <p>copyright &copy; 2019 Graphic Studio All right reserved</p>
+          </div>
+        </section>
+      </footer>
+        <!-- end footr section -->
+</body>
+</html>

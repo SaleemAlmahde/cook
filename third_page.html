@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorBox</title>
+    <link rel="stylesheet" href="./assets/css/normalies.css">
+    <link rel="stylesheet" href="./assets/css/style3.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <script src="./assets/java/data.js"></script>
+    <script src="./assets/java/script3.js"></script>
+</head>
+<body>
+    <!-- start nav -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/imgs/Untitled-3.png" alt="ligo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="./first_page.html">Home</a></li>
+                <li><a href="./second_page.html">Recipes</a></li>
+                <button type="submit"><a href="./third_page.html">Add Recipe</a></button>
+            </ul>
+        </div>
+     </nav>
+     <!-- end nav -->
+
+     <section id="addRecipe">
+      <div class="container">
+        <h2>Add a Recipe!</h2>
+        <p>We love to try your delicious recipes and add it to <span class="site-name">FlavorBox</span> collection!</p>
+        <form action="" method="post" id="addForm" onsubmit="saveRecipe(event)">
+          <div class="beside-container">
+          <label for="recipeName"><strong>Recipe Name :</strong></label>
+          <div class="group-input">
+            <input type="text" id="recipeName" maxlength="30" required>
+          </div>
+        </div>
+          <br>
+          <br>
+          <div class="beside-container">
+          <label for=""><strong>Short Description :</strong></label>
+          <div class="group-input desc-input">
+            <input type="text" id="shortDescription" maxlength="125" required>
+          </div>
+        </div>
+          <br>
+          <br>
+          <label for="ingredient" class="ing-label"><strong>Ingredients :</strong></label>
+          <div id="ingredientsContainer">
+            <div class="ingredient-container">
+            <div class="group-input">
+              <input type="text" name="" class="ingredient" required>
+            </div>
+            <button class="add-ingredient" onclick="addIngredient(event)">+</button>
+          </div>
+          </div>
+          <br>
+          <br>
+          <div id="categoreis">
+          <label><strong>Choose Categoreis :</strong></label>
+          <div id="mainCategoreis">
+          </div>
+        </div>
+          <br>
+          <br>
+          <label for="preparation"><strong>Preparation :</strong></label>
+          <div class="preparation-container">
+          <div class="group-input" id="preparationArea">
+            <textarea name="" class="preparation" id="preparation" rows="14" cols="73" oninput="limitLines(this)" required></textarea>
+          </div>
+          <div id="warningMessage" style="color: red; font-size: 14px; display: none;">You have reached the maximum limit!</div>
+        </div>
+          <br>
+          <br>
+          <div class="image-btn">
+          <label for="image" class="file-label">Choose an Image</label>
+          <input type="file" id="image" class="file-input" accept="image/png, image/jpeg" required>
+        </div>
+          <br>
+          <h4>Are you done?</h4>
+          <div class="btn-container">
+          <button type="submit" class="form-btn">Send Recipe <span>🍽️</span></button>
+        </div>
+        </form>
+        <br>
+        <br>
+        <div id="recipesBtn">
+        <button class="recipes-btn hidden-btn" onclick="openConfirmationPopup()">Show all recipes you send!</button>
+        </div>
+        <br>
+        <br>
+      </div>
+     </section>
+
+     <div id="confirmationPopup">
+      <p>Your recipe has been submitted successfully!</p>
+           <!-- start recipes section -->
+     <section id="recipes">
+      <div class="container">
+      <!-- <div class="top-section"></div> -->
+      <div id="recipesGrid" class="recipes-grid"></div>
+    </div>
+    </section>
+
+      <button onclick="closePopup()">OK</button>
+    </div>
+    <div id="recipeOverlay" class="hidden" onclick="closePopup()"></div>
+
+    <!-- start modal -->
+    <div id="overlay" class="hidden" onclick="closeModal()"></div>
+    <div id="modal" class="hidden">
+        <div id="modalContent"></div>
+    </div>
+
+     <!-- start footer -->
+     <footer>
+        <div class="container">
+        <div class="footer-title">
+          <div class="nav-footer">
+          <h2>FlavorBox</h2>
+          </div>
+          <div class="footer-content">
+            <span>about&nbsp;</span>
+             <span class="flavorBox-line">&nbsp; FlavorBox &nbsp; </span> 
+             <span>&nbsp;Contact</span> 
+             <p><br></p>
+            <p>NY/+1 123456 7890 /hello@graphics.studio.com</p>
+           <br>
+          </div>
+          </p>
+        </div>
+        </div>
+        <section class="copyright-section">
+          <div class="container">
+            <p>copyright &copy; 2019 Graphic Studio All right reserved</p>
+          </div>
+        </section>
+      </footer>
+        <!-- end footr section -->
+</body>
+</html>
