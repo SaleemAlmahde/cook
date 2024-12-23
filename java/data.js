@@ -16,7 +16,7 @@ const baseRecipes = [
         ],
         preparation: "Begin by boiling a pot of water with a pinch of salt, and cook the spaghetti according to the package instructions until al dente. In a large pan, heat olive oil over medium heat and sauté the chopped onion until translucent. Add the minced garlic and cook for another minute, ensuring it doesn’t burn. Next, add the minced beef to the pan, breaking it apart with a spoon, and cook until browned. Stir in the crushed tomatoes, mixed herbs, salt, and pepper. Lower the heat and let the sauce simmer gently for about 15-20 minutes, stirring occasionally to prevent sticking. Drain the spaghetti and serve with the sauce poured on top, garnished with fresh basil or Parmesan cheese if desired.",
         categories: ["main-course", "italian"],
-        image: "../imgs/Spaghetti_Bolognese.jpg"
+        image: "./imgs/Spaghetti_Bolognese.jpg"
 },
 {
         id: 2,
@@ -32,7 +32,7 @@ const baseRecipes = [
         ],
         preparation: "Start by boiling a large pot of salted water and cook the pasta according to package instructions. While the pasta cooks, heat olive oil in a large pan over medium-high heat. Add the sliced chicken breast and season with a pinch of salt and pepper. Cook the chicken until golden brown and fully cooked, then remove it from the pan and set aside. In the same pan, lower the heat and add the minced garlic, cooking until fragrant. Pour in the cream and bring to a gentle simmer, stirring continuously. Gradually add the grated Parmesan cheese and stir until fully melted and the sauce is smooth. Return the cooked chicken to the pan, mix well, and add the drained pasta. Toss everything together until evenly coated, then serve hot, garnished with extra Parmesan and parsley if desired.",
         categories: ["main-course", "italian"],
-        image: "../imgs/Chicken_Alfredo.jpg"
+        image: "./imgs/Chicken_Alfredo.jpg"
 },
 {
         id: 3,
@@ -49,7 +49,7 @@ const baseRecipes = [
         ],
         preparation: "Begin by seasoning the beef strips with salt and pepper. Heat a large skillet over medium-high heat and sear the beef strips until browned on all sides. Remove the beef from the pan and set aside. In the same skillet, reduce the heat to medium and add a bit more oil if necessary. Sauté the chopped onions until softened, then add the minced garlic and cook for an additional minute. Add the sliced mushrooms and cook until they release their moisture and begin to brown. Stir in the mustard and pour in the broth, scraping the bottom of the pan to deglaze. Allow the mixture to simmer for a few minutes before returning the beef to the skillet. Finally, lower the heat and stir in the cream, cooking until the sauce thickens slightly. Serve the Stroganoff over rice, mashed potatoes, or egg noodles for a complete meal.",
         categories: ["main-course", "russian"],
-        image: "../imgs/Beef_Stroganoff.jpg"
+        image: "./imgs/Beef_Stroganoff.jpg"
 },
 {
         id: 4,
@@ -63,7 +63,7 @@ const baseRecipes = [
         ],
         preparation: "Start by washing and drying the romaine lettuce thoroughly, then chop it into bite-sized pieces. Place the lettuce in a large bowl. Add the croutons for a delightful crunch and sprinkle the grated Parmesan cheese over the top. Drizzle the Caesar dressing evenly over the salad. Using salad tongs or clean hands, toss the ingredients gently to ensure everything is coated with the dressing. Serve immediately as a refreshing appetizer or alongside a main dish.",
         categories: ["Appetizer", "salad"],
-        image: "../imgs/Caesar_Salad.jpg"
+        image: "./imgs/Caesar_Salad.jpg"
 },
 {
         id: 5,
@@ -78,7 +78,7 @@ const baseRecipes = [
         ],
         preparation: "Begin by heating a non-stick skillet over medium heat. Add the ground beef and cook, breaking it apart with a wooden spoon, until browned and fully cooked. Drain any excess fat and season with taco spices or a blend of paprika, cumin, and chili powder. Warm the tortillas in a dry pan or microwave until soft and pliable. To assemble the tacos, start by spreading a spoonful of salsa onto each tortilla. Add a generous portion of the seasoned beef, followed by shredded lettuce and grated cheese. Fold the tortilla and serve immediately, adding extra toppings like sour cream, guacamole, or hot sauce as desired.",
         categories: ["main-course", "mexican"],
-        image: "../imgs/Tacos.jpg"
+        image: "./imgs/Tacos.jpg"
 },
 {
         id: 6,
@@ -92,7 +92,7 @@ const baseRecipes = [
         ],
         preparation: "Preheat your oven to the highest temperature possible, typically around 250°C (482°F). Roll out the pizza dough on a floured surface to your desired thickness. Place the dough on a pizza stone or baking sheet. Spread the tomato sauce evenly across the dough, leaving a small border around the edges for the crust. Tear the mozzarella cheese into small pieces and scatter them evenly over the sauce. Add a few fresh basil leaves on top. Bake in the preheated oven for about 7-10 minutes, or until the crust is golden and the cheese is bubbly. Remove from the oven, slice, and serve hot.",
         categories: ["main-course", "italian"],
-        image: "../imgs/Margarita_Pizza.jpg"
+        image: "./imgs/Margarita_Pizza.jpg"
 },
 {
     id: 7,
@@ -106,7 +106,7 @@ const baseRecipes = [
     ],
     preparation: "Begin by cooking the sushi rice according to package instructions. Once cooked, season the rice with sushi vinegar by gently folding it in while the rice is warm. Allow the rice to cool to room temperature. Place a sheet of nori, shiny side down, on a bamboo sushi mat. Spread a thin layer of rice evenly over the nori, leaving about 2 cm at the top edge free. Arrange slices of fish and julienned vegetables in a straight line near the bottom edge of the rice. Using the bamboo mat, carefully roll the nori from the bottom edge, pressing gently but firmly to create a tight roll. Seal the edge with a small dab of water. Slice the roll into even pieces using a sharp, wet knife. Serve with soy sauce, pickled ginger, and wasabi.",
     categories: ["Appetizer", "japanese"],
-    image: "../imgs/Sushi_Roll.jpg"
+    image: "./imgs/Sushi_Roll.jpg"
 },
 {
     id: 8,
@@ -121,7 +121,7 @@ const baseRecipes = [
     ],
     preparation: "Begin by preparing the broth in a medium-sized pot. Bring the broth to a boil and add the sliced lemongrass, chilies, and lime juice. Let the broth simmer for 5-7 minutes to allow the flavors to infuse. Add the shrimp to the pot and cook for 3-4 minutes, or until they turn pink and are fully cooked. Adjust the seasoning with salt or fish sauce if needed. Serve the soup hot, garnished with fresh cilantro and lime wedges for extra flavor.",
     categories: ["Appetizer", "thai"],
-    image: "../imgs/Tom_Yum_Soup.jpg"
+    image: "./imgs/Tom_Yum_Soup.jpg"
 },
 {
     id: 9,
@@ -136,7 +136,7 @@ const baseRecipes = [
     ],
     preparation: "In a large mixing bowl, combine the flour and sugar. Make a well in the center and crack in the eggs. Begin whisking the eggs, gradually incorporating the dry ingredients. Slowly pour in the milk while whisking until a smooth batter forms. Heat a non-stick skillet over medium heat and lightly grease it with butter or oil. Pour a ladleful of batter onto the skillet and cook until bubbles form on the surface. Flip the pancake and cook the other side until golden brown. Repeat with the remaining batter. Serve the pancakes warm, topped with syrup, fresh fruit, or a dusting of powdered sugar.",
     categories: ["breakfast", "dessert"],
-    image: "../imgs/Pancakes.jpg"
+    image: "./imgs/Pancakes.jpg"
 },
 {
     id: 10,
@@ -151,7 +151,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat your oven to 180°C (356°F) and grease a round cake tin. Melt the chocolate and butter together in a heatproof bowl over a pot of simmering water or in the microwave, stirring until smooth. In a separate bowl, whisk the eggs and sugar until light and fluffy. Gradually fold in the melted chocolate mixture. Sift in the flour and gently fold it into the batter until combined. Pour the batter into the prepared tin and bake for 30-35 minutes or until a toothpick inserted into the center comes out clean. Allow the cake to cool completely before frosting with your favorite chocolate icing or ganache. Slice and serve.",
     categories: ["dessert", "cake"],
-    image: "../imgs/Chocolate_Cake.jpg"
+    image: "./imgs/Chocolate_Cake.jpg"
 },
 {
     id: 11,
@@ -168,7 +168,7 @@ const baseRecipes = [
     ],
     preparation: "Begin by heating olive oil in a large pan or wok over medium-high heat. Add the minced garlic and sauté for 30 seconds until fragrant. Add the broccoli, carrot, and bell pepper to the pan. Stir-fry the vegetables for 4-5 minutes until they start to soften but still retain some crunch. Pour in the soy sauce and stir well to coat the vegetables evenly. Cook for an additional 2 minutes. Season with salt and pepper to taste, then serve immediately as a side dish or with steamed rice.",
     categories: ["vegetarian", "asian"],
-    image: "../imgs/Vegetable_Stir-Fry.jpg"
+    image: "./imgs/Vegetable_Stir-Fry.jpg"
 },
 {
     id: 12,
@@ -183,7 +183,7 @@ const baseRecipes = [
     ],
     preparation: "Combine the lemon juice, olive oil, dried oregano, salt, and pepper in a small bowl to make the marinade. Place the salmon fillets in a shallow dish and pour the marinade over them, ensuring they are evenly coated. Let the salmon marinate for at least 15 minutes. Preheat the grill to medium heat and lightly oil the grates. Grill the salmon fillets skin-side down for 5-7 minutes, then flip and cook for another 3-4 minutes until the fish is opaque and flakes easily. Serve hot with a side of vegetables or rice.",
     categories: ["main-course", "seafood"],
-    image: "../imgs/Grilled_Salmon.jpg"
+    image: "./imgs/Grilled_Salmon.jpg"
 },
 {
     id: 13,
@@ -199,7 +199,7 @@ const baseRecipes = [
     ],
     preparation: "Slice the eggplants into rounds and lightly salt them to draw out moisture. After 30 minutes, rinse and pat them dry. Dip each slice into beaten eggs, then coat with breadcrumbs. Fry the slices in hot oil until golden and crispy. In a baking dish, layer fried eggplant slices, tomato sauce, mozzarella, and Parmesan cheese. Repeat layers and finish with a generous amount of cheese on top. Bake in a preheated oven at 180°C (350°F) for 20-25 minutes until the cheese is bubbly and golden. Serve warm with a side of garlic bread.",
     categories: ["main-course", "italian"],
-    image: "../imgs/Eggplant_Parmesan.jpg"
+    image: "./imgs/Eggplant_Parmesan.jpg"
 },
 {
     id: 14,
@@ -216,7 +216,7 @@ const baseRecipes = [
     ],
     preparation: "Blend soaked chickpeas, onion, garlic, cumin, coriander, salt, and pepper in a food processor until you achieve a coarse dough. Shape the dough into small balls or patties. Heat oil in a deep pan and fry the falafel until golden brown and crispy. Drain on paper towels and serve hot with pita bread, tahini sauce, or a fresh salad.",
     categories: ["appetizer", "middle-eastern"],
-    image: "../imgs/Falafel.jpg"
+    image: "./imgs/Falafel.jpg"
 },
 {
     id: 15,
@@ -232,7 +232,7 @@ const baseRecipes = [
     ],
     preparation: "Cook ground beef in a skillet over medium heat, seasoning with your choice of taco spices. Warm the tortillas on a dry pan or microwave. Fill each tortilla with a generous portion of the beef, then top with shredded lettuce, diced tomatoes, grated cheddar cheese, and a dollop of sour cream. Fold and serve immediately with your favorite salsa or guacamole.",
     categories: ["main-course", "mexican"],
-    image: "../imgs/Beef_Tacos.jpg"
+    image: "./imgs/Beef_Tacos.jpg"
 },
 {
     id: 16,
@@ -249,7 +249,7 @@ const baseRecipes = [
     ],
     preparation: "Rinse the lentils thoroughly under cold water. In a large pot, sauté the onion, carrots, and celery in a bit of oil until softened. Add the lentils, bay leaf, and vegetable broth to the pot. Bring to a boil, then reduce the heat and simmer for 25-30 minutes, or until the lentils are tender. Remove the bay leaf, season with salt and pepper, and serve warm with crusty bread.",
     categories: ["appetizer", "vegetarian"],
-    image: "../imgs/Lentil_Soup.jpg"
+    image: "./imgs/Lentil_Soup.jpg"
 },
 {
     id: 17,
@@ -264,7 +264,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 180°C (350°F). Clean and pat the duck dry. Rub the five-spice powder, soy sauce, and orange juice all over the duck, including inside the cavity. Place the duck on a roasting rack and roast for 1.5-2 hours until the skin is crispy and golden. Brush with hoisin sauce during the last 15 minutes of cooking. Let rest before carving and serve with pancakes or rice.",
     categories: ["main-course", "chinese"],
-    image: "../imgs/Peking_Duck.jpg"
+    image: "./imgs/Peking_Duck.jpg"
 },
 {
     id: 18,
@@ -281,7 +281,7 @@ const baseRecipes = [
     ],
     preparation: "Heat olive oil in a skillet over medium heat. Sauté the onions, bell pepper, and garlic until soft. Add the tomato sauce and paprika, stirring to combine. Simmer for 10 minutes to develop the flavors. Make small wells in the sauce and crack an egg into each. Cover and cook until the eggs are set to your liking. Serve hot with crusty bread for dipping.",
     categories: ["breakfast", "middle-eastern"],
-    image: "../imgs/Shakshuka.jpg"
+    image: "./imgs/Shakshuka.jpg"
 },
 {
     id: 19,
@@ -298,7 +298,7 @@ const baseRecipes = [
     ],
     preparation: "Cook the pasta according to package instructions. In a large skillet, heat olive oil and sauté the garlic until fragrant. Add the zucchini, bell pepper, and tomato, cooking until tender. Toss the cooked pasta with the sautéed vegetables and season with salt and pepper. Sprinkle with Parmesan cheese before serving.",
     categories: ["main-course", "vegetarian"],
-    image: "../imgs/Pasta_Primavera.jpg"
+    image: "./imgs/Pasta_Primavera.jpg"
 },
 {
     id: 20,
@@ -313,7 +313,7 @@ const baseRecipes = [
     ],
     preparation: "Crush the digestive biscuits into fine crumbs and mix with melted butter. Press the mixture into a pie dish to form the base and chill in the fridge for 15 minutes. Layer the sliced bananas over the crust, then drizzle generously with toffee sauce. Whip the cream until soft peaks form and spread it over the top. Chill for an hour before serving.",
     categories: ["dessert", "pie"],
-    image: "../imgs/Banoffee_Pie.jpg"
+    image: "./imgs/Banoffee_Pie.jpg"
 },
 {
     id: 21,
@@ -332,7 +332,7 @@ const baseRecipes = [
     ],
     preparation: "Heat oil in a pan and sauté the onion, garlic, and ginger until golden. Add the chicken cubes and cook until lightly browned. Stir in garam masala and turmeric, then add tomato puree and cream. Simmer for 20 minutes until the chicken is tender and the sauce thickens. Serve with naan or steamed rice.",
     categories: ["main-course", "indian"],
-    image: "../imgs/chicken_tikka_masala.jpg"
+    image: "./imgs/chicken_tikka_masala.jpg"
 },
 {
     id: 22,
@@ -350,7 +350,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 180°C (350°F). Sauté onion and garlic, then add ground beef and tomato sauce to prepare the meat sauce. Layer cooked lasagna sheets with meat sauce, ricotta, and béchamel in a baking dish. Top with mozzarella cheese and bake for 25-30 minutes until golden and bubbly.",
     categories: ["main-course", "italian"],
-    image: "../imgs/lasagna.jpg"
+    image: "./imgs/lasagna.jpg"
 },
 {
     id: 23,
@@ -368,7 +368,7 @@ const baseRecipes = [
     ],
     preparation: "In a large pot, sauté the onion and garlic. Add ground beef and cook until browned. Stir in chili powder, cumin, and tomato sauce. Add beans and bell pepper, simmer for 30 minutes. Adjust seasoning and serve with rice or tortilla chips.",
     categories: ["main-course", "mexican"],
-    image: "../imgs/chili_con_carne.jpg"
+    image: "./imgs/chili_con_carne.jpg"
 },
 {
     id: 24,
@@ -386,7 +386,7 @@ const baseRecipes = [
     ],
     preparation: "Soak rice noodles in warm water until softened. In a wok, cook shrimp and onion until fragrant. Push aside and scramble eggs. Add noodles, tamarind paste, fish sauce, and sugar. Toss until combined, then top with crushed peanuts and serve hot.",
     categories: ["main-course", "thai"],
-    image: "../imgs/pad_thai.jpg"
+    image: "./imgs/pad_thai.jpg"
 },
 {
     id: 25,
@@ -403,7 +403,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 180°C (350°F). Cut the tops off the bell peppers and remove seeds. Sauté onion and garlic, then mix with cooked rice, ground beef, and tomato sauce. Stuff the peppers with the mixture and bake for 30 minutes.",
     categories: ["main-course", "vegetarian"],
-    image: "../imgs/stuffed_bell_peppers.jpg"
+    image: "./imgs/stuffed_bell_peppers.jpg"
 },
 {
     id: 26,
@@ -418,7 +418,7 @@ const baseRecipes = [
     ],
     preparation: "Warm the tortillas and layer with lettuce, tomato slices, and falafel balls. Drizzle tahini sauce generously and roll tightly. Serve immediately or wrap for on-the-go meals.",
     categories: ["appetizer", "middle-eastern"],
-    image: "../imgs/falafel_wrap.jpg"
+    image: "./imgs/falafel_wrap.jpg"
 },
 {
     id: 27,
@@ -434,7 +434,7 @@ const baseRecipes = [
     ],
     preparation: "Cook spaghetti according to package instructions. In a pan, melt butter and sauté garlic until fragrant. Add shrimp and cook until pink. Toss with spaghetti and lemon juice. Garnish with parsley and serve hot.",
     categories: ["main-course", "seafood"],
-    image: "../imgs/shrimp_scampi.jpg"
+    image: "./imgs/shrimp_scampi.jpg"
 },
 {
     id: 28,
@@ -451,7 +451,7 @@ const baseRecipes = [
     ],
     preparation: "Roast pumpkin pieces in the oven at 180°C (350°F) until soft. In a pot, sauté onion and garlic, then add roasted pumpkin, broth, and spices. Simmer for 10 minutes and blend until smooth. Stir in cream and serve hot.",
     categories: ["appetizer", "vegetarian"],
-    image: "../imgs/pumpkin_soup.jpg"
+    image: "./imgs/pumpkin_soup.jpg"
 },
 {
     id: 29,
@@ -466,7 +466,7 @@ const baseRecipes = [
     ],
     preparation: "Season the beef and sear on all sides. Prepare mushroom duxelles by sautéing mushrooms until dry. Spread mustard and duxelles over the beef, wrap in puff pastry, and brush with beaten egg. Bake at 200°C (390°F) for 25-30 minutes until golden.",
     categories: ["main-course", "british"],
-    image: "../imgs/beef_wellington.jpg"
+    image: "./imgs/beef_wellington.jpg"
 },
 {
     id: 30,
@@ -482,7 +482,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 180°C (350°F). Prepare the crust by mixing flour, butter, and water until dough forms. Roll out and line a pie dish. Fill with apple slices mixed with sugar and cinnamon. Cover with another crust layer, brush with beaten egg, and bake until golden.",
     categories: ["dessert", "pie"],
-    image: "../imgs/apple_pie.jpg"
+    image: "./imgs/apple_pie.jpg"
 },
 {
     id: 31,
@@ -500,7 +500,7 @@ const baseRecipes = [
     ],
     preparation: "Begin by salting the sliced eggplants and letting them sit for 20 minutes to remove excess moisture. Rinse and pat dry. Fry or roast the eggplant slices until golden and set aside. In a pan, cook the ground lamb with chopped onion and garlic until browned. Add the tomato sauce, cinnamon, salt, and pepper, and let the mixture simmer for 15 minutes. Preheat the oven to 180°C (350°F). In a baking dish, layer half of the eggplants, followed by the meat mixture, and then another layer of eggplants. Pour the béchamel sauce over the top and sprinkle with Parmesan cheese. Bake for 30-40 minutes, or until the top is golden brown. Allow it to cool slightly before serving.",
     categories: ["main-course", "greek"],
-    image: "../imgs/moussaka.jpg"
+    image: "./imgs/moussaka.jpg"
 },
 {
     id: 32,
@@ -516,7 +516,7 @@ const baseRecipes = [
     ],
     preparation: "Start by boiling the ziti pasta in salted water until al dente. Drain and set aside. In a large skillet, sauté the chopped onion and garlic until fragrant, then add the marinara sauce and let it simmer for 10 minutes. Preheat the oven to 190°C (375°F). In a large baking dish, layer half of the cooked pasta, followed by half of the sauce, and then half of the cheeses. Repeat the layers, finishing with a generous topping of mozzarella and Parmesan cheese. Cover with foil and bake for 20 minutes. Remove the foil and bake for another 10 minutes, or until the cheese is bubbly and golden. Let it rest for 5 minutes before serving.",
     categories: ["main-course", "italian"],
-    image: "../imgs/baked_ziti.jpg"
+    image: "./imgs/baked_ziti.jpg"
 },
 {
     id: 33,
@@ -532,7 +532,7 @@ const baseRecipes = [
     ],
     preparation: "In a large bowl, toss the sliced chicken with fajita seasoning until well coated. Heat a skillet over medium-high heat and add a tablespoon of oil. Cook the chicken until browned and fully cooked, then remove and set aside. In the same skillet, add the sliced onions and bell peppers, cooking until they are softened and slightly charred. Return the chicken to the skillet and mix everything together. Warm the tortillas in a dry pan or microwave. Serve the fajita mixture hot, allowing each person to assemble their tortillas with chicken, vegetables, and optional toppings like sour cream and salsa.",
     categories: ["main-course", "mexican"],
-    image: "../imgs/chicken_fajitas.jpg"
+    image: "./imgs/chicken_fajitas.jpg"
 },
 {
     id: 34,
@@ -549,7 +549,7 @@ const baseRecipes = [
     ],
     preparation: "Begin by heating olive oil in a large skillet over medium heat. Sauté the chopped onion and garlic until fragrant. Add the zucchini, eggplant, bell pepper, and tomatoes to the skillet. Season with salt, pepper, and herbs such as thyme or basil. Stir well and cover the skillet, reducing the heat to low. Let the vegetables simmer for about 30 minutes, stirring occasionally, until they are tender and the flavors are well combined. Serve hot as a side dish or with crusty bread for a light meal.",
     categories: ["main-course", "french"],
-    image: "../imgs/ratatouille.jpg"
+    image: "./imgs/ratatouille.jpg"
 },
 {
     id: 35,
@@ -566,7 +566,7 @@ const baseRecipes = [
     ],
     preparation: "Pat the fish fillets dry and season with salt and pepper. In a shallow dish, mix the flour, paprika, and cumin. Coat the fish fillets in the flour mixture, ensuring they are evenly covered. Heat a skillet with olive oil over medium heat and fry the fish until golden and crispy on both sides. Warm the tortillas in a pan or microwave. Assemble the tacos by placing the crispy fish on the tortillas and topping with cabbage slaw. Serve immediately with lime wedges and your favorite sauces.",
     categories: ["main-course", "mexican"],
-    image: "../imgs/crispy_fish_tacos.jpg"
+    image: "./imgs/crispy_fish_tacos.jpg"
 },
 {
     id: 36,
@@ -581,7 +581,7 @@ const baseRecipes = [
     ],
     preparation: "Cook the jumbo pasta shells in salted boiling water until al dente. Drain and set aside. Combine the ricotta cheese, wilted spinach, and half of the mozzarella in a mixing bowl, seasoning with salt and pepper. Preheat the oven to 180°C (350°F). Spread marinara sauce in a baking dish. Stuff each shell with the ricotta mixture and place in the dish. Top with remaining marinara sauce and cheese. Cover with foil and bake for 25 minutes, then uncover and bake for 10 more minutes until bubbly and golden. Let cool slightly before serving.",
     categories: ["main-course", "italian"],
-    image: "../imgs/spinach_ricotta_shells.jpg"
+    image: "./imgs/spinach_ricotta_shells.jpg"
 },
 {
     id: 37,
@@ -597,7 +597,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 220°C (430°F). Roll out the pizza dough on a floured surface and place on a baking sheet. Spread tomato sauce evenly over the dough, leaving a small border. Add mozzarella cheese, then top with sliced vegetables like onions, bell peppers, olives, and mushrooms. Bake for 15-20 minutes, or until the crust is golden and the cheese is melted. Serve hot, optionally garnished with fresh basil leaves.",
     categories: ["main-course", "italian"],
-    image: "../imgs/vegetarian_pizza.jpg"
+    image: "./imgs/vegetarian_pizza.jpg"
 },
 {
     id: 38,
@@ -612,7 +612,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 200°C (400°F). Toss the chicken wings with olive oil, paprika, salt, and pepper. Arrange them in a single layer on a baking sheet. Bake for 20 minutes, then brush generously with BBQ sauce. Turn the wings over, brush the other side with sauce, and bake for an additional 15-20 minutes until they are caramelized and crispy. Serve hot with extra BBQ sauce on the side.",
     categories: ["main-course", "american"],
-    image: "../imgs/bbq_chicken_wings.jpg"
+    image: "./imgs/bbq_chicken_wings.jpg"
 },
 {
     id: 39,
@@ -627,7 +627,7 @@ const baseRecipes = [
     ],
     preparation: "In a bowl, mix the lobster meat with mayonnaise, lemon juice, and parsley. Toast the rolls with a little butter until golden. Fill each roll generously with the lobster mixture. Serve immediately with chips or a light salad.",
     categories: ["main-course", "seafood"],
-    image: "../imgs/lobster_roll.jpg"
+    image: "./imgs/lobster_roll.jpg"
 },
 {
     id: 40,
@@ -643,7 +643,7 @@ const baseRecipes = [
     ],
     preparation: "Preheat the oven to 190°C (375°F). Toss the sliced peaches with sugar and cinnamon, then spread them evenly in a baking dish. In a bowl, mix flour, sugar, and butter until crumbly. Add the egg and mix to form a soft dough. Drop spoonfuls of the dough over the peaches, leaving some gaps for steam to escape. Bake for 30-35 minutes, or until the topping is golden and the peach filling is bubbling. Serve warm with a scoop of vanilla ice cream.",
     categories: ["dessert", "pie"],
-    image: "../imgs/peach_cobbler.jpg"
+    image: "./imgs/peach_cobbler.jpg"
 },
 {
     "id": 41,
@@ -659,7 +659,7 @@ const baseRecipes = [
     ],
     "preparation": "Marinate the chicken in the shawarma spice mix and olive oil for at least 2 hours or overnight. Heat a skillet over medium heat and cook the chicken until golden and fully cooked, about 8-10 minutes per side. Slice the chicken into thin strips. Warm the pita breads and fill them with chicken, lettuce, tomatoes, cucumbers, and a generous drizzle of garlic sauce. Serve immediately.",
     "categories": ["main-course", "middle-eastern"],
-    "image": "../imgs/chicken_shawarma.jpg"
+    "image": "./imgs/chicken_shawarma.jpg"
 },
 {
     "id": 42,
@@ -675,7 +675,7 @@ const baseRecipes = [
     ],
     "preparation": "In a bowl, mix the beef cubes with chopped onion, olive oil, cumin, paprika, salt, and pepper. Marinate for 2-3 hours in the refrigerator. Preheat the grill to medium-high heat. Thread the marinated beef onto skewers and grill for 8-10 minutes, turning occasionally, until the beef is tender and slightly charred. Serve hot.",
     "categories": ["main-course", "grill"],
-    "image": "../imgs/beef_kebabs.jpg"
+    "image": "./imgs/beef_kebabs.jpg"
 },
 {
     "id": 43,
@@ -690,7 +690,7 @@ const baseRecipes = [
     ],
     "preparation": "Peel and mash the avocados in a bowl, adding a squeeze of lemon juice and seasoning with salt and pepper. Toast the bread slices until golden brown. Spread the mashed avocado onto the toast and drizzle with a little olive oil. Serve immediately.",
     "categories": ["breakfast", "snack"],
-    "image": "../imgs/avocado_toast.jpg"
+    "image": "./imgs/avocado_toast.jpg"
 },
 {
     "id": 44,
@@ -707,7 +707,7 @@ const baseRecipes = [
     ],
     "preparation": "Heat olive oil in a pot over medium heat. Sauté the chopped onions and minced garlic until softened. Add the chopped tomatoes, basil, and vegetable broth. Simmer for 20-25 minutes. Use a blender to puree the soup until smooth. Garnish with a swirl of cream and serve hot.",
     "categories": ["appetizer", "vegetarian"],
-    "image": "../imgs/tomato_basil_soup.jpg"
+    "image": "./imgs/tomato_basil_soup.jpg"
 },
 {
     "id": 45,
@@ -723,7 +723,7 @@ const baseRecipes = [
     ],
     "preparation": "Mix the mashed potatoes, cooked peas, chopped onions, garam masala, and cumin in a bowl. Place a spoonful of the filling onto each wrapper, fold into triangles, and seal the edges with water. Heat oil in a deep pan and fry the samosas in batches until golden brown. Drain on paper towels and serve hot.",
     "categories": ["appetizer", "indian"],
-    "image": "../imgs/samosas.jpg"
+    "image": "./imgs/samosas.jpg"
 },
 {
     "id": 46,
@@ -739,7 +739,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 180°C (350°F). Dip the eggplant slices into the beaten eggs, then coat with breadcrumbs. Fry the slices in oil until golden. In a baking dish, layer the fried eggplant slices with marinara sauce and mozzarella cheese. Top with grated Parmesan. Bake for 20-25 minutes until the cheese is melted and bubbly. Serve warm.",
     "categories": ["main-course", "italian"],
-    "image": "../imgs/eggplant_parmesan.jpg"
+    "image": "./imgs/eggplant_parmesan.jpg"
 },
 {
     "id": 47,
@@ -755,7 +755,7 @@ const baseRecipes = [
     ],
     "preparation": "Heat olive oil in a skillet over medium heat. Sauté the onions and garlic until softened. Add the chicken slices and cook until browned. Stir in the mango chutney and simmer for 10 minutes until the chicken is fully cooked. Garnish with cilantro and serve hot.",
     "categories": ["main-course", "indian"],
-    "image": "../imgs/mango_chutney_chicken.jpg"
+    "image": "./imgs/mango_chutney_chicken.jpg"
 },
 {
     "id": 48,
@@ -771,7 +771,7 @@ const baseRecipes = [
     ],
     "preparation": "Place the shrimp in a bowl and pour lime juice over them. Let marinate for 30 minutes until opaque. Mix with the chopped tomato, red onion, cilantro, and jalapeño. Chill for another 20 minutes before serving.",
     "categories": ["appetizer", "mexican"],
-    "image": "../imgs/shrimp_ceviche.jpg"
+    "image": "./imgs/shrimp_ceviche.jpg"
 },
 {
     "id": 49,
@@ -787,7 +787,7 @@ const baseRecipes = [
     ],
     "preparation": "Slow-cook the pork shoulder with chopped onion, garlic, and chili powder for 4-6 hours until tender. Shred the pork and serve it in warmed tortillas with lettuce, tomatoes, and salsa.",
     "categories": ["main-course", "mexican"],
-    "image": "../imgs/pork_tacos.jpg"
+    "image": "./imgs/pork_tacos.jpg"
 },
 {
     "id": 50,
@@ -802,7 +802,7 @@ const baseRecipes = [
     ],
     "preparation": "Prepare a digestive biscuit base in a pie dish. Layer the sliced bananas on top, then pour over the toffee sauce. Spread whipped cream over the toffee layer and sprinkle grated dark chocolate on top. Chill in the refrigerator for at least 2 hours before serving.",
     "categories": ["dessert", "pie"],
-    "image": "../imgs/banoffee_pie.jpg"
+    "image": "./imgs/banoffee_pie.jpg"
 },
 {
     "id": 51,
@@ -820,7 +820,7 @@ const baseRecipes = [
     ],
     "preparation": "Fry the eggplant slices until golden and set them aside. In a large pot, cook the minced meat with onions, garlic, cinnamon, and cardamom until the meat is browned and fragrant. Add rice and water or broth, then layer the fried eggplant on top. Cover and cook the rice mixture until done. Flip the pot upside down onto a serving platter, creating an impressive layered dish to serve.",
     "categories": ["main-course", "arabic"],
-    "image": "../imgs/maklouba.jpg"
+    "image": "./imgs/maklouba.jpg"
 },
 {
     "id": 52,
@@ -838,7 +838,7 @@ const baseRecipes = [
     ],
     "preparation": "Start by cooking chicken with onions, tomatoes, and kabsa spices in a large pot. Once the chicken is golden, add turmeric, rice, and chicken broth, then season with salt and pepper. Cover and cook until the rice is tender and the flavors have melded together. This one-pot dish is full of bold spices and rich flavors.",
     "categories": ["main-course", "arabic"],
-    "image": "../imgs/kabsa.jpg"
+    "image": "./imgs/kabsa.jpg"
 },
 {
     "id": 53,
@@ -856,7 +856,7 @@ const baseRecipes = [
     ],
     "preparation": "Drain and rinse soaked chickpeas. Blend chickpeas, parsley, onions, garlic, cumin, and coriander in a food processor until smooth. Season with salt and pepper, then shape the mixture into small patties or balls. Heat oil in a frying pan and fry the falafel until golden brown and crispy. Serve in pita bread with salad and tahini sauce.",
     "categories": ["Appetizer", "arabic"],
-    "image": "../imgs/falafel.jpg"
+    "image": "./imgs/falafel.jpg"
 },
 {
     "id": 54,
@@ -872,7 +872,7 @@ const baseRecipes = [
     ],
     "preparation": "Blend the cooked chickpeas with tahini, lemon juice, garlic, and a pinch of salt until smooth and creamy. Drizzle with olive oil and adjust seasoning to taste. This classic dip is perfect for serving with pita, vegetables, or as a spread.",
     "categories": ["Appetizer", "arabic"],
-    "image": "../imgs/hummus.jpg"
+    "image": "./imgs/hummus.jpg"
 },
 {
     "id": 55,
@@ -889,7 +889,7 @@ const baseRecipes = [
     ],
     "preparation": "Marinate the meat with shawarma spices, garlic, and onions for at least an hour. Grill the meat until perfectly charred and cooked through. Slice the grilled meat thinly and serve it in warm pita bread with garlic sauce, tomatoes, cucumbers, and lettuce for a delicious and satisfying meal.",
     "categories": ["main-course", "arabic"],
-    "image": "../imgs/shawarma.jpg"
+    "image": "./imgs/shawarma.jpg"
 },
 {
     "id": 56,
@@ -906,7 +906,7 @@ const baseRecipes = [
     ],
     "preparation": "Cook the bulgur wheat according to package instructions and let it cool. In a large bowl, combine chopped parsley, tomatoes, onions, and cooled bulgur. Drizzle with olive oil and lemon juice, then toss to combine. Season with salt and pepper to taste for a refreshing and healthy side dish.",
     "categories": ["Appetizer", "arabic"],
-    "image": "../imgs/tabbouleh.jpg"
+    "image": "./imgs/tabbouleh.jpg"
 },
 {
     "id": 57,
@@ -923,7 +923,7 @@ const baseRecipes = [
     ],
     "preparation": "Mix the ground meat with grated onion, garlic, cumin, coriander, salt, and pepper until well combined. Form the mixture into small patties or thread it onto skewers. Grill or fry the kofta until cooked through and golden brown on the outside. Serve with pita, rice, or a side of yogurt.",
     "categories": ["main-course", "arabic"],
-    "image": "../imgs/kofta.jpg"
+    "image": "./imgs/kofta.jpg"
 },
 {
     "id": 58,
@@ -940,7 +940,7 @@ const baseRecipes = [
     ],
     "preparation": "Layer phyllo dough in a baking dish, brushing each sheet with melted butter. Add a layer of chopped nuts and repeat until all ingredients are used. Bake the baklava until golden and crispy. While it bakes, make a syrup by boiling sugar, water, lemon juice, and honey until thickened. Once baked, pour the syrup over the hot baklava and let it soak in before serving.",
     "categories": ["dessert", "arabic"],
-    "image": "../imgs/baklava.jpg"
+    "image": "./imgs/baklava.jpg"
 },
 {
     "id": 59,
@@ -956,7 +956,7 @@ const baseRecipes = [
     ],
     "preparation": "Layer semolina dough and cheese in a baking dish, pouring melted butter over each layer. Bake until golden and crispy on the top. While it bakes, prepare the syrup by boiling sugar, water, and rose water. Once the knafeh is baked, pour the syrup over it and let it soak in. Serve warm for a sweet, decadent treat.",
     "categories": ["dessert", "arabic"],
-    "image": "../imgs/knafeh.jpg"
+    "image": "./imgs/knafeh.jpg"
 },
 {
     "id": 60,
@@ -974,7 +974,7 @@ const baseRecipes = [
     ],
     "preparation": "Toast the pita bread until crispy, then break it into bite-sized pieces. In a large bowl, combine chopped lettuce, tomatoes, cucumber, and onion. Add the toasted pita, then drizzle with olive oil, lemon juice, and season with salt and pepper to taste. Toss everything together and serve chilled for a refreshing appetizer.",
     "categories": ["Appetizer", "arabic"],
-    "image": "../imgs/fattoush.jpg"
+    "image": "./imgs/fattoush.jpg"
 },
 {
     "id": 61,
@@ -988,7 +988,7 @@ const baseRecipes = [
     ],
     "preparation": "First, boil the water in a saucepan. Once boiling, add the green tea leaves and let them steep for about 3-5 minutes. Add the fresh mint leaves and sugar to taste, stirring to dissolve the sugar. Let it steep for a few more minutes to infuse the flavors. Serve hot in small cups, garnished with additional mint leaves if desired.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/mint_tea.jpg"
+    "image": "./imgs/mint_tea.jpg"
 },
 {
     "id": 62,
@@ -1002,7 +1002,7 @@ const baseRecipes = [
     ],
     "preparation": "Begin by boiling the hibiscus flowers in 4 cups of water for about 10 minutes until the liquid turns a deep red color. Once boiled, strain the mixture into a pitcher, discarding the flowers. Add sugar to taste and stir until dissolved. Allow the tea to cool to room temperature, then refrigerate for 1-2 hours. Serve chilled over ice cubes for a refreshing drink.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/karkadeh.jpg"
+    "image": "./imgs/karkadeh.jpg"
 },
 {
     "id": 63,
@@ -1016,7 +1016,7 @@ const baseRecipes = [
     ],
     "preparation": "Soak the tamarind pulp in 4 cups of water for about 2-3 hours to soften it. Once soaked, strain the mixture into a large bowl, discarding any seeds or fibers. Add sugar to taste, stirring until fully dissolved. Refrigerate for at least an hour to chill. Serve cold over ice cubes for a sweet and tangy drink.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/tamarind_juice.jpg"
+    "image": "./imgs/tamarind_juice.jpg"
 },
 {
     "id": 64,
@@ -1031,7 +1031,7 @@ const baseRecipes = [
     ],
     "preparation": "Start by muddling the fresh mint leaves with the sugar in a tall glass to release the mint’s flavor. Then, add the fresh lemon juice and mix well. Fill the glass with ice cubes, then top with soda water, stirring gently to combine the ingredients. Serve chilled for a refreshing, tangy drink with a burst of mint.",
     "categories": ["drink", "refreshing"],
-    "image": "../imgs/lemon_mint_cooler.jpg"
+    "image": "./imgs/lemon_mint_cooler.jpg"
 },
 {
     "id": 65,
@@ -1044,7 +1044,7 @@ const baseRecipes = [
     ],
     "preparation": "In a large mixing bowl, whisk together the plain yogurt, water, and salt until smooth and frothy. Continue whisking for 2-3 minutes to create a creamy texture. You can adjust the salt to your preference. Serve chilled in glasses, garnished with a pinch of salt if desired for extra flavor.",
     "categories": ["drink", "middle-eastern"],
-    "image": "../imgs/ayran.jpg"
+    "image": "./imgs/ayran.jpg"
 },
 {
     "id": 66,
@@ -1059,7 +1059,7 @@ const baseRecipes = [
     ],
     "preparation": "Combine the fresh lemon juice, rose water, and sugar in a pitcher. Stir well until the sugar is completely dissolved. Add 2 cups of water to the mixture and stir again. Refrigerate the lemonade for at least an hour to chill. Serve over ice cubes for a fragrant, floral lemonade with a refreshing twist.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/rose_water_lemonade.jpg"
+    "image": "./imgs/rose_water_lemonade.jpg"
 },
 {
     "id": 67,
@@ -1074,7 +1074,7 @@ const baseRecipes = [
     ],
     "preparation": "In a blender, combine the fresh pineapple chunks, Greek yogurt, fresh mint leaves, honey, and ice cubes. Blend until smooth and creamy. You can add more honey if you prefer a sweeter smoothie. Serve immediately for a cool and tropical drink.",
     "categories": ["drink", "smoothie"],
-    "image": "../imgs/pineapple_mint_smoothie.jpg"
+    "image": "./imgs/pineapple_mint_smoothie.jpg"
 },
 {
     "id": 68,
@@ -1089,7 +1089,7 @@ const baseRecipes = [
     ],
     "preparation": "In a pot, combine the sahlab powder, milk, and sugar. Stir the mixture constantly while heating over medium heat until it thickens to a creamy consistency. Once thickened, pour the sahlab into serving cups. Garnish with a sprinkle of cinnamon and crushed pistachios for a warm, comforting drink.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/sahlab.jpg"
+    "image": "./imgs/sahlab.jpg"
 },
 {
     "id": 69,
@@ -1103,7 +1103,7 @@ const baseRecipes = [
         ],
     "preparation": "Blend the dates, milk, and vanilla ice cream in a blender until smooth and creamy. You can add a pinch of cinnamon for extra flavor. Blend again and taste to adjust sweetness if necessary. Pour into a glass and serve chilled for a sweet and indulgent treat.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/date_shake.jpg"
+    "image": "./imgs/date_shake.jpg"
 },
 {
     "id": 70,
@@ -1117,7 +1117,7 @@ const baseRecipes = [
     ],
     "preparation": "In a small saucepan, bring the water to a boil, then add the Arabic coffee grounds and ground cardamom. Lower the heat and simmer for 5 minutes, stirring occasionally. Once the coffee has brewed, pour it into small cups. Add sugar to taste and serve hot for a rich, aromatic coffee experience.",
     "categories": ["drink", "arabic"],
-    "image": "../imgs/arabic_coffee.jpg"
+    "image": "./imgs/arabic_coffee.jpg"
 },
 {
     "id": 71,
@@ -1132,7 +1132,7 @@ const baseRecipes = [
     ],
     "preparation": "Start by preheating your oven to 220°C (430°F). Roll out the pizza dough on a floured surface to your desired thickness. Spread a thin layer of tomato sauce over the dough, leaving a small border around the edges. Evenly place the fresh mozzarella slices over the sauce. Add fresh basil leaves on top, and drizzle a little olive oil over the pizza. Bake in the oven for 10-12 minutes, or until the crust is golden and the cheese is bubbly and slightly browned. Remove from the oven and serve immediately.",
     "categories": ["main-course", "italian", "pizza"],
-    "image": "../imgs/margherita_pizza.jpg"
+    "image": "./imgs/margherita_pizza.jpg"
 },
 {
     "id": 72,
@@ -1146,7 +1146,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Roll out the pizza dough to your desired thickness on a floured surface. Spread the tomato sauce evenly over the dough. Sprinkle the shredded mozzarella cheese on top and arrange the pepperoni slices over the cheese. Bake for 10-12 minutes until the crust is golden and the cheese is melted and bubbly. Once done, remove from the oven and serve hot.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/pepperoni_pizza.jpg"
+    "image": "./imgs/pepperoni_pizza.jpg"
 },
 {
     "id": 73,
@@ -1161,7 +1161,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Roll out the pizza dough to your desired size and thickness. Spread the tomato sauce evenly over the dough, then sprinkle the shredded mozzarella cheese over the sauce. Add the sliced ham and pineapple chunks on top. Bake in the preheated oven for 10-12 minutes, or until the crust is golden and the cheese is bubbling. Serve hot.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/hawaiian_pizza.jpg"
+    "image": "./imgs/hawaiian_pizza.jpg"
 },
 {
     "id": 74,
@@ -1176,7 +1176,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Roll out the pizza dough to your desired size. Spread BBQ sauce evenly over the dough. Add the grilled chicken slices, red onion rings, and shredded mozzarella cheese on top. Bake for 10-12 minutes, or until the crust is golden and the cheese is melted and bubbly. Remove from the oven and serve hot.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/bbq_chicken_pizza.jpg"
+    "image": "./imgs/bbq_chicken_pizza.jpg"
 },
 {
     "id": 75,
@@ -1192,7 +1192,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Roll out the pizza dough and spread a thin layer of tomato sauce. Sprinkle the shredded mozzarella cheese evenly over the dough. Add the sliced bell pepper, mushrooms, and olives. Bake the pizza for 10-12 minutes until the crust is golden and the cheese is melted and bubbly. Remove from the oven and serve hot.",
     "categories": ["main-course", "pizza", "vegetarian"],
-    "image": "../imgs/vegetarian_pizza.jpg"
+    "image": "./imgs/vegetarian_pizza.jpg"
 },
 {
     "id": 76,
@@ -1208,7 +1208,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Roll out the pizza dough and spread a thin layer of tomato sauce. Sprinkle the four cheeses (mozzarella, parmesan, cheddar, and blue cheese) evenly over the sauce. Bake the pizza for 10-12 minutes until the crust is golden and the cheese is melted and bubbling. Serve hot and enjoy the rich, cheesy goodness.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/four_cheese_pizza.jpg"
+    "image": "./imgs/four_cheese_pizza.jpg"
 },
 {
     "id": 77,
@@ -1224,7 +1224,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Brush the pizza dough with olive oil. Evenly distribute the sliced mushrooms and shredded mozzarella cheese on the dough. Drizzle with truffle oil. Bake the pizza for 10-12 minutes, or until the crust is golden and the cheese is bubbling. Remove from the oven and garnish with fresh parsley before serving.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/mushroom_truffle_pizza.jpg"
+    "image": "./imgs/mushroom_truffle_pizza.jpg"
 },
 {
     "id": 78,
@@ -1239,7 +1239,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Toss the shredded grilled chicken in buffalo sauce. Roll out the pizza dough and spread the buffalo chicken evenly over it. Sprinkle the shredded mozzarella cheese on top. Bake for 10-12 minutes until the crust is golden and the cheese is melted. After baking, drizzle with ranch dressing before serving.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/buffalo_chicken_pizza.jpg"
+    "image": "./imgs/buffalo_chicken_pizza.jpg"
 },
 {
     "id": 79,
@@ -1254,7 +1254,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Spread the pesto sauce evenly over the pizza dough. Add the grilled chicken slices and sprinkle the shredded mozzarella cheese over the top. Bake for 10-12 minutes until the crust is golden and the cheese is melted. Garnish with sun-dried tomatoes and serve hot.",
     "categories": ["main-course", "pizza"],
-    "image": "../imgs/pesto_chicken_pizza.jpg"
+    "image": "./imgs/pesto_chicken_pizza.jpg"
 },
 {
     "id": 80,
@@ -1270,7 +1270,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 220°C (430°F). Spread the garlic butter sauce evenly over the pizza dough. Add the shrimp, calamari, and clams, followed by the shredded mozzarella cheese. Bake for 10-12 minutes until the crust is golden and the cheese is melted. Remove from the oven and serve hot for a seafood indulgence.",
     "categories": ["main-course", "pizza", "seafood"],
-    "image": "../imgs/seafood_pizza.jpg"
+    "image": "./imgs/seafood_pizza.jpg"
 },
 {
     "id": 81,
@@ -1286,7 +1286,7 @@ const baseRecipes = [
     ],
     "preparation": "Melt butter in a large skillet over medium heat. Add the minced garlic and sauté until fragrant, about 1 minute. Add the shrimp to the skillet and cook, stirring occasionally, until they turn pink and opaque, about 3-4 minutes. Add lemon juice and stir to combine. Season with salt and pepper to taste, then sprinkle with fresh parsley. Serve immediately.",
     "categories": ["main-course", "seafood"],
-    "image": "../imgs/garlic_butter_shrimp.jpg"
+    "image": "./imgs/garlic_butter_shrimp.jpg"
 },
 {
     "id": 82,
@@ -1303,7 +1303,7 @@ const baseRecipes = [
     ],
     "preparation": "Cook the spaghetti according to the package instructions, then drain and set aside, reserving some of the pasta water. In a large skillet, heat the olive oil over medium heat. Add the minced garlic and sauté until fragrant, about 1 minute. Add the shrimp and cook for 2-3 minutes until they turn pink and opaque. Add the white wine and lemon juice, stirring to combine. Allow the sauce to simmer for 2-3 minutes, then add the cooked pasta. Toss the pasta in the sauce, adding a bit of the reserved pasta water if needed to help coat the noodles. Sprinkle with fresh parsley and serve.",
     "categories": ["main-course", "seafood"],
-    "image": "../imgs/shrimp_scampi.jpg"
+    "image": "./imgs/shrimp_scampi.jpg"
 },
 {
     "id": 83,
@@ -1318,7 +1318,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat your oven to 400°F (200°C). Using a sharp knife or kitchen shears, cut the lobster tails lengthwise, being careful not to cut all the way through. Gently pull the lobster meat out of the shell, keeping it attached at the base. Place the lobster tails on a baking sheet. In a small bowl, mix together the melted butter, minced garlic, and lemon juice. Brush the butter mixture generously over the lobster meat. Bake the lobster tails for 12-15 minutes, or until the meat is opaque and tender. Garnish with fresh parsley and serve immediately.",
     "categories": ["main-course", "seafood"],
-    "image": "../imgs/lobster_tail.jpg"
+    "image": "./imgs/lobster_tail.jpg"
 },
 {
     "id": 84,
@@ -1338,7 +1338,7 @@ const baseRecipes = [
     ],
     "preparation": "In a large bowl, mix together the flour, cornstarch, baking powder, paprika, and salt. Gradually add the beer, whisking to form a smooth batter. Heat vegetable oil in a large frying pan over medium-high heat. Dip the fish fillets into the batter, making sure they are fully coated, and carefully lower them into the hot oil. Fry the fish fillets for 4-5 minutes, or until golden brown and crispy. Remove from the oil and drain on paper towels. Warm the tortillas in a dry pan or microwave. To serve, place the fried fish fillets in the tortillas and top with cabbage slaw. Serve with lime wedges on the side.",
     "categories": ["main-course", "seafood"],
-    "image": "../imgs/fish_tacos.jpg"
+    "image": "./imgs/fish_tacos.jpg"
 },
 {
     "id": 85,
@@ -1356,7 +1356,7 @@ const baseRecipes = [
     ],
     "preparation": "In a large bowl, combine the crab meat, breadcrumbs, egg, mayonnaise, Dijon mustard, lemon juice, and Old Bay seasoning. Gently mix until well combined. Shape the mixture into small patties. Heat olive oil in a frying pan over medium heat. Fry the crab cakes for 3-4 minutes on each side, or until golden brown and crispy. Remove from the pan and drain on paper towels. Serve warm.",
     "categories": ["main-course", "seafood"],
-    "image": "../imgs/crab_cakes.jpg"
+    "image": "./imgs/crab_cakes.jpg"
 },
 {
     "id": 91,
@@ -1373,7 +1373,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 375°F (190°C). Set up a breading station by placing the beaten eggs in one bowl and mixing the bread crumbs and grated Parmesan cheese in another. Dip each eggplant slice into the egg, coating both sides, then dredge it in the bread crumb mixture. Heat olive oil in a large skillet over medium heat. Fry the eggplant slices in batches until golden brown and crispy, about 2-3 minutes per side. Remove the eggplant slices from the skillet and place them on a paper towel-lined plate to drain excess oil. In a baking dish, spread a thin layer of marinara sauce on the bottom. Layer the fried eggplant slices over the sauce, followed by a layer of marinara sauce and shredded mozzarella cheese. Repeat the layers until all eggplant slices are used, finishing with a layer of mozzarella cheese. Bake for 20-25 minutes, or until the cheese is melted and bubbly. Let it cool for a few minutes before serving.",
     "categories": ["vegetarian", "italian"],
-    "image": "../imgs/eggplant_parmesan.jpg"
+    "image": "./imgs/eggplant_parmesan.jpg"
 },
 {
     "id": 92,
@@ -1391,7 +1391,7 @@ const baseRecipes = [
     ],
     "preparation": "Heat olive oil and sesame oil in a large skillet or wok over medium-high heat. Add the minced ginger and stir-fry for about 30 seconds, until fragrant. Add the bell pepper, carrot, zucchini, and snow peas to the skillet, and stir-fry for about 5-7 minutes, or until the vegetables are tender-crisp. Pour in the soy sauce and stir to combine, cooking for another 2-3 minutes. Taste and adjust seasoning if necessary, then serve hot over rice or noodles.",
     "categories": ["vegetarian", "asian"],
-    "image": "../imgs/vegetable_stir_fry.jpg"
+    "image": "./imgs/vegetable_stir_fry.jpg"
 },
 {
     "id": 93,
@@ -1408,7 +1408,7 @@ const baseRecipes = [
     ],
     "preparation": "Warm the tortillas in a dry skillet or microwave. In a small pan, heat the black beans over medium heat until warmed through. To assemble the tacos, place a few spoonfuls of beans in each tortilla. Top with slices of avocado, diced tomato, shredded lettuce, and sliced red onion. Add a dollop of sour cream on top and serve with lime wedges on the side for extra flavor.",
     "categories": ["vegetarian", "mexican"],
-    "image": "../imgs/vegetarian_tacos.jpg"
+    "image": "./imgs/vegetarian_tacos.jpg"
 },
 {
     "id": 94,
@@ -1426,7 +1426,7 @@ const baseRecipes = [
     ],
     "preparation": "In a large pot, heat a bit of olive oil over medium heat. Add the chopped onion, carrots, celery, and minced garlic, and sauté for about 5 minutes, until the vegetables are soft. Add the lentils, vegetable broth, and cumin to the pot. Stir to combine, bring to a boil, and then reduce the heat to low. Simmer for about 30 minutes, or until the lentils are tender. Season with salt and pepper to taste, and serve hot.",
     "categories": ["vegetarian", "soup"],
-    "image": "../imgs/lentil_soup.jpg"
+    "image": "./imgs/lentil_soup.jpg"
 },
 {
     "id": 95,
@@ -1444,7 +1444,7 @@ const baseRecipes = [
     ],
     "preparation": "Drain the chickpeas and place them in a food processor along with the onion, garlic, parsley, cumin, baking powder, and flour. Pulse until the mixture is coarse but holds together. Form the mixture into small patties. Heat olive oil in a large skillet over medium heat and fry the patties in batches until golden and crispy on both sides, about 3-4 minutes per side. Remove from the skillet and drain on paper towels. Serve with tahini sauce or yogurt.",
     "categories": ["vegetarian", "middle-eastern"],
-    "image": "../imgs/falafel.jpg"
+    "image": "./imgs/falafel.jpg"
 },
 {
     "id": 96,
@@ -1461,7 +1461,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 375°F (190°C). In a large bowl, whisk together the eggs, heavy cream, shredded cheese, spinach, and chopped onion. Season with salt and pepper. Pour the mixture into the pie crust and spread it evenly. Bake for 30-35 minutes, or until the quiche is set and golden brown on top. Let it cool for a few minutes before slicing and serving.",
     "categories": ["vegetarian", "breakfast"],
-    "image": "../imgs/vegetable_quiche.jpg"
+    "image": "./imgs/vegetable_quiche.jpg"
 },
 {
     "id": 97,
@@ -1479,7 +1479,7 @@ const baseRecipes = [
     ],
     "preparation": "In a bowl, combine olive oil, paprika, cumin, turmeric, minced garlic, salt, and pepper. Rub the marinade onto the chicken breasts and let them sit for at least 30 minutes. Preheat the grill or a grill pan over medium heat. Grill the chicken for about 6-7 minutes per side, or until fully cooked. Slice the chicken thinly and serve in pita bread with a drizzle of tahini sauce and fresh vegetables.",
     "categories": ["main-course", "middle-eastern"],
-    "image": "../imgs/chicken_shawarma.jpg"
+    "image": "./imgs/chicken_shawarma.jpg"
 },
 {
     "id": 98,
@@ -1496,7 +1496,7 @@ const baseRecipes = [
     ],
     "preparation": "In a bowl, combine olive oil, lemon juice, cumin, paprika, salt, and pepper. Add the beef cubes and toss to coat. Let the beef marinate for at least 30 minutes. Thread the beef onto wooden skewers and preheat the grill or grill pan to medium-high heat. Grill the kebabs for 8-10 minutes, turning occasionally, until the beef reaches your desired doneness. Serve with rice or flatbread.",
     "categories": ["main-course", "middle-eastern"],
-    "image": "../imgs/beef_kebabs.jpg"
+    "image": "./imgs/beef_kebabs.jpg"
 },
 {
     "id": 99,
@@ -1513,7 +1513,7 @@ const baseRecipes = [
     ],
     "preparation": "Heat olive oil in a large skillet over medium heat. Add the chopped onion, bell pepper, and minced garlic. Sauté for about 5 minutes, or until softened. Add the diced tomatoes and paprika, and cook for another 10 minutes, stirring occasionally, until the sauce thickens. Make four small wells in the sauce and crack an egg into each well. Cover the skillet and cook for about 5-7 minutes, or until the eggs are set. Serve with crusty bread.",
     "categories": ["breakfast", "middle-eastern"],
-    "image": "../imgs/shakshuka.jpg"
+    "image": "./imgs/shakshuka.jpg"
 },
 {
     "id": 100,
@@ -1530,7 +1530,7 @@ const baseRecipes = [
     ],
     "preparation": "Preheat the oven to 375°F (190°C). In a skillet, cook the ground beef with the chopped onion and garlic until browned. Add the tomato sauce and cinnamon, and simmer for 10 minutes. Meanwhile, slice the eggplants and fry or grill them until golden brown. In a baking dish, layer the eggplant slices, followed by a layer of the beef mixture. Repeat the layers and top with béchamel sauce. Bake for 30 minutes, until the top is golden brown. Let it rest for a few minutes before serving.",
     "categories": ["main-course", "greek"],
-    "image": "../imgs/moussaka.jpg"
+    "image": "./imgs/moussaka.jpg"
 },
 ];
 
